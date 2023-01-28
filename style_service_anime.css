@@ -1,0 +1,130 @@
+a:link, a:visited { color: #FFFFFF; text-decoration: none; font-weight: normal; } 
+a:active, a:hover { color: #99FF00; text-decoration: underline; }
+#loginform, ul, li {
+	list-style-type: none;
+}
+#header {
+	width: 100%;
+	height: 250px;
+	margin: auto;
+	background-color: #c30ef0;
+	position: sticky;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background-image: url(images/);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.position_block_2 {
+	margin: 0px;
+	padding: auto;
+	width: 100%;
+	height: 465px;
+	display: flex;
+	flex-direction: row;
+	
+}
+.left_side_bar {
+	text-align: center;
+	padding: 15px;
+	background-image: url(images/g_1.gif);
+	width: 12%;
+	height: 465px;
+	background-size: cover;
+	background-position: center;
+}
+
+.body_content {
+	background-color: #c30ef0;
+	width: 76%;
+	height: auto;
+	padding: 10px;
+	display: flex;
+  	flex-flow: row wrap;
+	  overflow-x: hidden;
+	  overflow-y: scroll;
+}
+
+.Img_1 {
+	max-width: 150px;
+	height: 150px;
+	margin: 0px;
+	padding: 0%;
+	background-color: black;
+	margin-bottom: 10px;
+}
+.otst_img_text {
+	width: 15px;
+	height: 150px;
+	margin-bottom: 10px;
+}
+.Text_1 {
+	margin: 0px;
+	padding: 10px;
+	width: 86%;
+	max-width: 92%;
+	height: auto;
+	background-color: #000000;
+	display: flex;
+   	flex-direction: column;
+	margin-bottom: 10px;
+}
+.text_obz {
+	color: rgb(255, 255, 255);
+}
+
+.right_side_bar {
+	text-align: center;
+	background-image: url(images/g_1.gif);
+	width: 12%;
+	height: 465px;
+	padding: 15px;
+	background-size: cover;
+	background-position: center;
+}
+#navigation {
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	padding-top: 10px;
+	position: sticky;
+	background-color: black;
+}
+.Av {
+	color: black;
+	font-size: medium;
+}
+.footer {
+	
+	width: 100%;
+	height: 120px;
+	margin-bottom: 0px;
+	display: flex;
+	flex-direction: row;
+	background-color: #c30ef0;
+}
+.f_1 {
+	width: 20%;
+	height: 120px;
+	background-color: #ffffff;
+}
+.f_2 {
+	width: 20%;
+	height: 120px;
+	background-color: #ffffff;
+}
+.raz {
+	width: 76%;
+	height: 120px;
+	padding-left: 10%;
+	background: linear-gradient(90deg, rgba(125,24,218,1) 0%, rgba(218,28,198,1) 50%, rgba(101,29,226,1) 100%);
+	animation: gradient 10s infinite linear; 
+	background-size: auto; 
+}

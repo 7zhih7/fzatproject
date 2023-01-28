@@ -1,0 +1,347 @@
+a:link, a:visited { color: #FFFFFF; text-decoration: none; font-weight: normal; } 
+a:active, a:hover { color: #99FF00; text-decoration: underline; }
+#loginform, ul, li {
+	list-style-type: none;
+}
+#header {
+	width: 100%;
+	height: 250px;
+	margin: auto;
+	background-color: #c30ef0;
+	position: sticky;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background-image: url(images/);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.position_block_2 {
+	margin: 0px;
+	padding: auto;
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-direction: row;
+	
+}
+.left_side_bar {
+	text-align: center;
+	padding: 15px;
+	background-image: url(images/g_1.gif);
+	width: 12%;
+	height: 480px;
+	background-size: cover;
+	background-position: center;
+}
+
+.body_content {
+	background-color: #c30ef0;
+	width: 76%;
+	height: 480px;
+	padding: 10px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	
+}
+
+
+.Text_1_anime {
+	margin-left: 25px;
+	margin-right: 25px;
+	padding-left: 15px;
+	width: 98%;
+	height: 55px;
+	background-color: #000000;
+	display: flex;
+   	flex-direction: column;
+	margin-bottom: 10px;
+	
+}
+
+
+.text_obz {
+	color: rgb(255, 255, 255);
+	
+}
+
+.right_side_bar {
+	text-align: center;
+	background-image: url(images/g_1.gif);
+	width: 12%;
+	height: 480px;
+	padding: 15px;
+	background-size: cover;
+	background-position: center;
+}
+#navigation {
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	padding-top: 10px;
+	position: sticky;
+	background-color: black;
+}
+.Av {
+	color: black;
+	font-size: medium;
+}
+.footer {
+	
+	width: 100%;
+	height: 120px;
+	margin-bottom: 0px;
+	display: flex;
+	flex-direction: row;
+	background-color: #c30ef0;
+}
+.f_1 {
+	width: 20%;
+	height: 120px;
+	background-color: #ffffff;
+}
+.f_2 {
+	width: 20%;
+	height: 120px;
+	background-color: #ffffff;
+}
+.raz {
+	width: 76%;
+	height: 120px;
+	padding-left: 10%;
+	background: linear-gradient(90deg, rgba(125,24,218,1) 0%, rgba(218,28,198,1) 50%, rgba(101,29,226,1) 100%);
+	animation: gradient 10s infinite linear; 
+	background-size: auto; 
+}
+
+
+
+.skrol_block_anime {
+	width: 218%;
+	height: 310px;
+	
+}
+.sm_anime {
+	width: 200px;
+	height: 310px;
+	margin-bottom: 0px;
+	background-color: black;
+	position: relative;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.text_anime {
+	width: 200px;
+	height: 75px;
+	background-color: black;
+	color: white;
+	margin-top: 0px;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-right: 25px;
+	position: relative;
+}
+.sm_anime_2 {
+	width: 200px;
+	height: 310px;
+	margin-bottom: 0px;
+	background-color: black;
+	position: relative;
+	left: 250px;
+	top: -309px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.text_anime_2 {
+	width: 200px;
+	height: 75px;
+	background-color: black;
+	color: white;
+	margin-top: 0px;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-right: 25px;
+	position: relative;
+}
+.sm_anime_3 {
+	width: 200px;
+	height: 310px;
+	margin-bottom: 0px;
+	background-color: black;
+	position: relative;
+	left: 500px;
+	top: -618px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.text_anime_3 {
+	width: 200px;
+	height: 75px;
+	background-color: black;
+	color: white;
+	margin-top: 0px;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-right: 25px;
+	position: relative;
+}
+.sm_anime_4 {
+	width: 200px;
+	height: 310px;
+	margin-bottom: 0px;
+	background-color: black;
+	position: relative;
+	left: 750px;
+	top: -927px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.text_anime_4 {
+	width: 200px;
+	height: 75px;
+	background-color: black;
+	color: white;
+	margin-top: 0px;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-right: 25px;
+	position: relative;
+}
+.sm_anime_5 {
+	width: 200px;
+	height: 310px;
+	margin-bottom: 0px;
+	background-color: black;
+	position: relative;
+	left: 1000px;
+	top: -1235px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.text_anime_5 {
+	width: 200px;
+	height: 75px;
+	background-color: black;
+	color: white;
+	margin-top: 0px;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-right: 25px;
+	position: relative;
+}
+.sm_anime_6 {
+	width: 200px;
+	height: 310px;
+	margin-bottom: 0px;
+	background-color: black;
+	position: relative;
+	left: 1250px;
+	top: -1543px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.text_anime_6 {
+	width: 200px;
+	height: 75px;
+	background-color: black;
+	color: white;
+	margin-top: 0px;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-right: 25px;
+	position: relative;
+}
+.sm_anime_7 {
+	width: 200px;
+	height: 310px;
+	margin-bottom: 0px;
+	background-color: black;
+	position: relative;
+	left: 1500px;
+	top: -1851px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.text_anime_7 {
+	width: 200px;
+	height: 75px;
+	background-color: black;
+	color: white;
+	margin-top: 0px;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-right: 25px;
+	position: relative;
+}
+.sm_anime_8 {
+	width: 200px;
+	height: 310px;
+	margin-bottom: 0px;
+	background-color: black;
+	position: relative;
+	left: 1750px;
+	top: -2159px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.text_anime_8 {
+	width: 200px;
+	height: 75px;
+	background-color: black;
+	color: white;
+	margin-top: 0px;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-right: 25px;
+	position: relative;
+}
+.sm_anime_9 {
+	width: 200px;
+	height: 310px;
+	margin-bottom: 0px;
+	background-color: black;
+	position: relative;
+	left: 2000px;
+	top: -2467px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.text_anime_9 {
+	width: 200px;
+	height: 75px;
+	background-color: black;
+	color: white;
+	margin-top: 0px;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-right: 25px;
+	position: relative;
+}
+.sm_anime_10 {
+	width: 200px;
+	height: 310px;
+	margin-bottom: 0px;
+	background-color: black;
+	position: relative;
+	left: 2250px;
+	top: -2775px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.text_anime_10 {
+	width: 200px;
+	height: 75px;
+	background-color: black;
+	color: white;
+	margin-top: 0px;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-right: 25px;
+	position: relative;
+}
