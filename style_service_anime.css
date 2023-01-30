@@ -124,9 +124,15 @@ body {
 	width: 76%;
 	height: 120px;
 	padding-left: 10%;
-	background: linear-gradient(90deg, rgba(125,24,218,1) 0%, rgba(218,28,198,1) 50%, rgba(101,29,226,1) 100%);
-	animation: gradient 10s infinite linear; 
-	background-size: auto; 
+	background: #c30ef0;
+	box-shadow: 0 -200px 100px -120px rgb(125, 23, 165) inset;
+	animation: background 3s infinite alternate;
+}
+@keyframes background {
+	50% {
+	  background: rgb(152, 40, 204);
+	  box-shadow: 0 -200px 100px -100px rgb(23, 38, 170) inset;
+	}
 }
 /* часы */
 .clock {
