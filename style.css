@@ -34,7 +34,7 @@ body {
 .left_side_bar {
 	text-align: center;
 	padding: 15px;
-	background-image: url(images/g_1.gif);
+	background-image: url(dop_block/g_1.gif);
 	width: 12%;
 	height: 465px;
 	background-size: cover;
@@ -92,7 +92,7 @@ body {
 	margin-left: auto;
 	padding-left: 10px;
 	width: 78%;
-	max-height: 1040px;
+	max-height: 1240px;
 	min-height: 240px;
 	background-color: #000000;
 	display: flex;
@@ -108,7 +108,7 @@ body {
 }
 .right_side_bar {
 	text-align: center;
-	background-image: url(images/g_1.gif);
+	background-image: url(dop_block/g_1.gif);
 	width: 12%;
 	height: 465px;
 	padding: 15px;
@@ -162,9 +162,9 @@ body {
     display: none;
     width: 205px;
     height: 170px;
-    -webkit-animation: fade .6s;
-    -moz-animation: fade .6s;
-    animation: fade .6s;
+    -webkit-animation: fade .3s;
+    -moz-animation: fade .3s;
+    animation: fade .3s;
     
 }
 

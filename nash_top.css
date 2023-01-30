@@ -34,7 +34,7 @@ body {
 .left_side_bar {
 	text-align: center;
 	padding: 15px;
-	background-image: url(images/g_1.gif);
+	background-image: url(dop_block/g_1.gif);
 	width: 12%;
 	height: 465px;
 	background-size: cover;
@@ -108,7 +108,7 @@ body {
 }
 .right_side_bar {
 	text-align: center;
-	background-image: url(images/g_1.gif);
+	background-image: url(dop_block/g_1.gif);
 	width: 12%;
 	height: 465px;
 	padding: 15px;
