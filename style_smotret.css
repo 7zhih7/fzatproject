@@ -396,3 +396,14 @@ body {
 	  opacity: 1.0;
 	};
   }
+  #overlay {
+    position: fixed;
+    top: 40px;
+    right: 0px;
+    display: none;
+    width: 360px;
+    height: 180px;
+    -webkit-animation: fade .3s;
+    -moz-animation: fade .3s;
+    animation: fade .3s; 
+}
