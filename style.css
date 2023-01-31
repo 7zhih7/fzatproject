@@ -162,7 +162,7 @@ body {
 }
 /* оверлей */
 #overlay {
-    position: fixed;
+    position: absolute;
     top: 40px;
     right: 0px;
     display: none;
