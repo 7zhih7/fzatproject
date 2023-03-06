@@ -1,4 +1,4 @@
-function myFunction_help_k() {
+function myFunction() {
     var x = document.getElementById("myForm");
     if (x.style.display === "block") {
       x.style.display = "none";
