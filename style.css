@@ -252,12 +252,15 @@ body {
 	width: 50%;
 	min-height: 75px;
 	max-height: 220px;
+	padding-bottom: 10px;
 }
 .osnovatel {
 	width: 50%;
 	min-height: 75px;
 	max-height: 220px;
 	text-align: right;
+	padding-bottom: 10px;
+	
 }
 .help_k {
 	background-color: rgba(0, 0, 0, 0);
