@@ -376,3 +376,16 @@ body {
   }
 
 /**/
+/* бегущая_строка_приветствие */
+#overlay_priv {
+    position: absolute;
+    top: 110px;
+    right: 48%;
+    display: block;
+	color: #FFFFFF;
+	font-size: large;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 250px;
+    height: 170px;
+    line-height: 250%;
+}
