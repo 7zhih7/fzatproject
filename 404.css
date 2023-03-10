@@ -64,3 +64,15 @@ body {
 	font-size: 32px;
 	color: red;
 }
+
+
+
+.nazad {
+	position: absolute;
+	top: 15px;
+    right: 20px;
+	font-size: 20px;
+	font-family: Verdana, Arial, Sans-serif;
+	color: rgb(255, 255, 255);
+	background-color: black;
+  }
