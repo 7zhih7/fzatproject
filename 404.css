@@ -57,6 +57,7 @@ body {
     top: 260px;
 	left: 320px;
     display: block;
+	background-color: rgba(0, 0, 0, 0.3);
     width: 550px;
     height: auto;
 	text-align: center;
