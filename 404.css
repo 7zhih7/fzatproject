@@ -76,3 +76,6 @@ body {
 	color: rgb(255, 255, 255);
 	background-color: black;
   }
+a:link, a:visited { color: #FFFFFF; text-decoration: none; font-weight: normal; } 
+a:active, a:hover { color: #99FF00; text-decoration: underline; }
+	
