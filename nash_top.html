@@ -215,45 +215,46 @@
   <marquee>Создатель сайта - <a href="https://vk.com/vkzalipator">Двойченко Михаил</a>  </marquee>
 </div>
 <script> 
-
         let audioNL = document.querySelectorAll('audio'); 
-
         let audio = Array.apply(null, audioNL); 
-
         audio.forEach(t => { 
-
             let index = audio.indexOf(t); 
-
             t.addEventListener('play', ()=> { 
-
                 audio.forEach(subT => { 
-
                     subT !== audio[index] ? 
-
                     (subT.pause(), subT.currentTime = 0) : 
-
                     subT.play() 
-
                 }) 
-
             }) 
-
             t.addEventListener('ended', ()=> { 
-
                 t.currentTime = 0; 
-
                 index !== audio.length - 1 ? 
-
                     audio[index + 1].play() : 
-
                     null 
-
             }) 
-
         }); 
-
-         
-
     </script>
+
+<script> 
+        let videoNL = document.querySelectorAll('video'); 
+        let video = Array.apply(null, videoNL); 
+        audio.forEach(t => { 
+            let index = video.indexOf(t); 
+            t.addEventListener('play', ()=> { 
+                video.forEach(subT => { 
+                    subT !== video[index] ? 
+                    (subT.pause(), subT.currentTime = 0) : 
+                    subT.play() 
+                }) 
+            }) 
+            t.addEventListener('ended', ()=> { 
+                t.currentTime = 0; 
+                index !== video.length - 1 ? 
+                    video[index + 1].play() : 
+                    null 
+            }) 
+        }); 
+</script>
+
 </body>
 </html>
